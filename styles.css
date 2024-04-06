@@ -1,18 +1,209 @@
-body{background-color: aqua;}
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
 
 .profil-top{
     /* Muss top bis 50% sein. Oben fixiert. Ganze Bildschirmbreite */
-    height: 50%;
-    width: auto;
-    background-color: blue;
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+.top-menu{
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.change-profil{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0px 10px;
+}
+
+.threads-top{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0px 10px;
+}
+
+.create-post{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0px 10px;
+}
+
+.options{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0px 10px;
+}
+
+.info{
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.profil-pic{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 80px;
+    margin: 0px 30px;
+}
+
+.posts{
+    width: 75px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 0px 30px;
+}
+
+.follower{
+    width: 75px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 0px 30px;
+
+}
+.following{
+    width: 75px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid;
+    margin: 0px 30px;
+
+}
+
+.bio-area{
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.thread-bio{
+    width: 25px;
+    height: 25px;
+    margin: 0px 30px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.bio{
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.manage-profil{
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.edit-profil{
+    height: 35px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.share-profil{
+    height: 35px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.add-profil{
+    height: 35px;
+    width: 50px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.fixed-stories{
+    height: 100px;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+
+    align-items: center;
+}
+
+.story-group{
+    height: 75px;
+    width: 75px;
+    margin: 0px 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 75px;
     
 }
 
-.profil-post{
+.profil-posts{
     /* Muss untere Bildschirm ab 50% sein mit ausnahme von der fixen nav bar. 
         3 rows breite grids. pics quadratisch, reels rechtecke, tag quadratisch */
+    height: 1000vh;
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.post-menu{
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.pic-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.posted-pic{
+    height: 200px;
+    width: 200px;
+    /* margin needs update */
+    margin: 10px auto ; 
+    background-color: white;
+    border: 5px solid black;
 }
 
 .nav-bar{
     /* muss Untern fixiert sein. fünf gleich große teile zum klicken.  */
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+    align-self: bottom;
+    bottom: 0;
+    position: sticky;
 }
