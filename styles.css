@@ -1,0 +1,18 @@
+body{background-color: aqua;}
+
+.profil-top{
+    /* Muss top bis 50% sein. Oben fixiert. Ganze Bildschirmbreite */
+    height: 50%;
+    width: auto;
+    background-color: blue;
+    
+}
+
+.profil-post{
+    /* Muss untere Bildschirm ab 50% sein mit ausnahme von der fixen nav bar. 
+        3 rows breite grids. pics quadratisch, reels rechtecke, tag quadratisch */
+}
+
+.nav-bar{
+    /* muss Untern fixiert sein. fünf gleich große teile zum klicken.  */
+}
