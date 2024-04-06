@@ -2,7 +2,7 @@ body{
     background-color: aqua;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;#
 }
 
 .profil-top{
@@ -65,7 +65,7 @@ body{
     background-color: white;
     border: 5px solid black;
     border-radius: 80px;
-    margin: 0px 30px;
+    margin: auto;
 }
 
 .posts{
@@ -73,7 +73,7 @@ body{
     height: 50px;
     background-color: white;
     border: 5px solid black;
-    margin: 0px 30px;
+    margin: auto;
 }
 
 .follower{
@@ -81,7 +81,7 @@ body{
     height: 50px;
     background-color: white;
     border: 5px solid black;
-    margin: 0px 30px;
+    margin: auto;
 
 }
 .following{
@@ -89,12 +89,11 @@ body{
     height: 50px;
     background-color: white;
     border: 5px solid;
-    margin: 0px 30px;
-
+    margin: auto;
 }
 
 .bio-area{
-    height: 100px;
+    max-height: 100px;
     background-color: white;
     border: 5px solid black;
 }
@@ -111,6 +110,8 @@ body{
     height: 50px;
     background-color: white;
     border: 5px solid black;
+    margin: 0px 30px;
+
 }
 
 .manage-profil{
@@ -178,6 +179,34 @@ body{
 
 .post-menu{
     height: 50px;
+    background-color: white;
+    border: 5px solid black;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.show-pic{
+    width: 300px;
+    height:30px;
+    margin: auto;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.show-reels{
+    width: 300px;
+    height:30px;
+    margin: auto;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.show-tag{
+    width: 300px;
+    height:30px;
+    margin: auto;
     background-color: white;
     border: 5px solid black;
 }
