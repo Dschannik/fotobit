@@ -171,7 +171,7 @@ body{
 .profil-posts{
     /* Muss untere Bildschirm ab 50% sein mit ausnahme von der fixen nav bar. 
         3 rows breite grids. pics quadratisch, reels rechtecke, tag quadratisch */
-    height: 1000vh;
+    height: 70vh;
     width: 100%;
     background-color: white;
     border: 5px solid black;
@@ -235,4 +235,47 @@ body{
     align-self: bottom;
     bottom: 0;
     position: sticky;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-home{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.nav-search{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.nav-create{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.nav-reel{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.nav-profil{
+    height: 75px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
 }
