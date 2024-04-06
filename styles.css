@@ -1,8 +1,17 @@
 body{
-    background-color: aqua;
+    background-color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;#
+}
+
+.format-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin:auto;
 }
 
 .profil-top{
@@ -20,13 +29,18 @@ body{
     border: 5px solid black;
     display: flex;
     align-items: center;
+
 }
 
 .change-profil{
     height: 30px;
     width: 100px;
     border: 2px solid black;
-    margin: 0px 10px;
+    margin: 0px 10px; 
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .threads-top{
@@ -34,6 +48,9 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .create-post{
@@ -41,6 +58,9 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .options{
@@ -48,6 +68,9 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info{
@@ -63,33 +86,45 @@ body{
     width: 80px;
     height: 80px;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 80px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .posts{
     width: 75px;
     height: 50px;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .follower{
     width: 75px;
     height: 50px;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .following{
     width: 75px;
     height: 50px;
     background-color: white;
-    border: 5px solid;
+    border: 2px solid;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bio-area{
@@ -103,13 +138,13 @@ body{
     height: 25px;
     margin: 0px 30px;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
 .bio{
     height: 50px;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 0px 30px;
 
 }
@@ -120,33 +155,46 @@ body{
     border: 5px solid black;
     display: flex;
     align-items: center;
+    
 }
 
 .edit-profil{
     height: 35px;
     width: 300px;
-    margin: auto;
+    margin: 10px;
     background-color: white;
     border: 2px solid black;
     text-align: center;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .share-profil{
     height: 35px;
     width: 300px;
-    margin: auto;
+    margin: 10px;
     background-color: white;
     border: 2px solid black;
     text-align: center;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .add-profil{
     height: 35px;
     width: 50px;
-    margin: auto;
+    margin: 0px 20px;
     background-color: white;
     border: 2px solid black;
     text-align: center;
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fixed-stories{
@@ -192,7 +240,10 @@ body{
     height:30px;
     margin: auto;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .show-reels{
@@ -200,7 +251,10 @@ body{
     height:30px;
     margin: auto;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .show-tag{
@@ -208,13 +262,17 @@ body{
     height:30px;
     margin: auto;
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pic-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+
 }
 
 .posted-pic{
@@ -223,7 +281,10 @@ body{
     /* margin needs update */
     margin: 10px auto ; 
     background-color: white;
-    border: 5px solid black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-bar{
