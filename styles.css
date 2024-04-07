@@ -5,6 +5,11 @@ body{
     flex-direction: column;#
 }
 
+p{
+    margin: auto;
+}
+
+
 .format-wrapper{
     display: flex;
     flex-direction: column;
@@ -37,7 +42,7 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px; 
-    flex: 3;
+    flex: 4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +53,7 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +64,7 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,30 +75,38 @@ body{
     width: 100px;
     border: 2px solid black;
     margin: 0px 10px;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .info{
-    height: 100px;
+    height: 120px;
     background-color: white;
     border: 5px solid black;
     display: flex;
     align-items: center;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .profil-pic{
-    width: 80px;
-    height: 80px;
-    background-color: white;
+    width: 110px;
+    height: 110px;
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 80px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.profil-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
 }
 
 .posts{
@@ -101,6 +116,7 @@ body{
     border: 2px solid black;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -112,6 +128,7 @@ body{
     border: 2px solid black;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -123,6 +140,7 @@ body{
     border: 2px solid;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -223,6 +241,9 @@ body{
     width: 100%;
     background-color: white;
     border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .post-menu{
@@ -270,21 +291,24 @@ body{
 
 .pic-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
+    margin: 10px;
 
 }
 
 .posted-pic{
-    height: 200px;
-    width: 200px;
+    height: ;
+    width: 100%; 
     /* margin needs update */
-    margin: 10px auto ; 
+    margin: auto auto ; 
     background-color: white;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-shrink: 1;
+    flex-wrap: wrap; */
 }
 
 .nav-bar{
@@ -307,6 +331,9 @@ body{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-search{
@@ -315,6 +342,9 @@ body{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-create{
@@ -323,6 +353,9 @@ body{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-reel{
@@ -331,6 +364,9 @@ body{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-profil{
@@ -339,4 +375,7 @@ body{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
